@@ -1,0 +1,9 @@
+@media(min-width:770px) and (max-width:790px) {
+  .cabecalho a {
+    font-size: 2em;
+  }
+
+  .rodape {
+    margin-top: 20%;
+  }
+}

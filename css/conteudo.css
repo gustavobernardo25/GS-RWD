@@ -1,0 +1,49 @@
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 3% auto;
+  height: -webkit-fill-available;
+}
+
+.conteudo p {
+  font-size: 20px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.conteudo>article {
+  margin: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  font: 300;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+}
+
+.conteudo>article img {
+
+  max-width: 360px;
+  max-height: 245px;
+  min-width: 250px;
+  min-height: 250px;
+  width: auto;
+  height: auto;
+  display: block;
+  display: table;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  padding: .4em;
+}
+
+.conteudo>article figcaption {
+  background: #f8f8f8;
+  text-align: center;
+  font-size: 1em;
+  padding: .6em .4em;
+  border: 1px solid #ccc;
+  border-top: 0;
+}

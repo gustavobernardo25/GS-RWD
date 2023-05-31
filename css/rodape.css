@@ -1,0 +1,26 @@
+.rodape {
+    position: sticky;
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(36, 144, 56);
+}
+
+.rodape>nav>a>img {
+    width: 5em;
+    margin: 10%;
+}
+
+.rodape>nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.rodape>h2 {
+    color: #fff;
+    padding: 1% 5%;
+}

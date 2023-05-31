@@ -1,0 +1,46 @@
+@media(max-width:770px) {
+
+    .tit-page {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho img {
+        margin: 0;
+    }
+
+    .cabecalho nav {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .cabecalho a {
+        font-size: 1.25em;
+    }
+
+    .conteudo p {
+        font-size: 15px;
+    }
+
+
+    .conteudo>article img {
+        max-width: 200px;
+        max-height: 150px;
+        width: auto;
+        height: auto;
+    }
+
+    .rodape {
+        margin: 0%;
+    }
+
+    .rodape>nav>a>img {
+        width: 3em;
+        margin: 10%;
+    }
+
+}
