@@ -47,3 +47,138 @@
   border: 1px solid #ccc;
   border-top: 0;
 }
+
+
+.title-form h1 {
+
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: left;
+  color: #4c4e4e;
+  font-family: 'open_sansbold';
+  margin-left: 10px;
+  margin-bottom: 35px;
+
+}
+
+.title-form h1:before {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  height: 5px;
+  width: 55px;
+  background-color: #4c4e4e;
+
+}
+
+.title-form h1:after {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1px;
+  width: 98%;
+  background-color: #4c4e4e;
+
+}
+
+.box-formulario {
+
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(36, 144, 56);
+  padding: 60px 0;
+
+}
+
+.formulario {
+
+  width: 700px;
+  background: rgb(36, 144, 56);
+  padding: 60px 5%;
+  text-align: center;
+
+}
+
+
+.formulario span {
+  position: relative;
+  display: flex;
+  margin: 15px 10px;
+
+}
+
+/*input Animado*/
+
+.input-slide {
+
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0 10px 75px;
+  font-family: "Open Sans", sans;
+  font-size: 23px;
+  font-weight: 400;
+  color: black;
+  background: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+
+}
+
+
+
+
+.textarea-slide {
+
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0 10px 75px;
+  font-family: "Open Sans", sans;
+  font-size: 23px;
+  font-weight: 400;
+  color: black;
+  background: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+
+}
+
+
+/*Botão*/
+.box-btn {
+
+  width: 100%;
+  padding: 0 10px;
+  float: left;
+
+}
+
+.btn-envia {
+
+  padding: 1em 2em;
+  cursor: pointer;
+  border: none;
+  background-color: #4c4e4e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #fff;
+  border-radius: 3px;
+  width: 100%;
+
+}
