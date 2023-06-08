@@ -14,7 +14,7 @@
     }
 
     .cabecalho nav {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
 
